@@ -1,0 +1,6 @@
+S = int(input('Podaj średni wiek trzech osób. '))
+X = int(input('Podaj wiek najstarszej osoby. '))
+Y = int(input('Podaj wiek najmłodszej osoby. '))
+Z = int(S*3-X-Y)
+print('Trzecia osoba ma: ')
+print(Z)

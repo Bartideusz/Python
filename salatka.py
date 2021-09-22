@@ -1,0 +1,6 @@
+o1 = int(input('Podaj, ile osób jest uwzględnionych w przepisie? '))
+s1 = int(input('Podaj ilość składnika dla osób uwzględnionych w przepisie: '))
+o2 = int(input('Podaj liczbę uczestników spotkania: '))
+s2 = int(s1*o2/o1)
+print('Ilość potrzebnego składnika: ')
+print(s2)

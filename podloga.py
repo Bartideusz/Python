@@ -1,0 +1,6 @@
+a = int(input('Podaj w metrach długość podłogi: '))
+b = int(input('Podaj w metrach szerokość podłogi: '))
+x = int(input('Podaj powierzchnię paczki: '))
+p = int(a*b/x)
+print('Liczba paczek z panelami potrzebna do ułożenia podłogi: ')
+print (p)
